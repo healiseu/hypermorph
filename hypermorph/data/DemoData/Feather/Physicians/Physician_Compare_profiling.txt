@@ -1,0 +1,64 @@
+Publisher	    Centers for Medicare & Medicaid Services (CMS)
+Contact Name	CMS
+Contact Email	PhysicianCompare@westat.com
+Bureau Code	    009:38
+Program Code	009:000
+YEAR            2016
+
+DESCRIPTION
+The Physician Compare National Downloadable File is organized at the individual eligible professional level;
+each line is unique at the professional/enrollment record/Group Practice/address level.
+
+Professionals with multiple Medicare enrollment records and/or single enrollments
+linking to multiple practice location addresses are listed on multiple lines.
+
+DataSource Publisher : Centers for Medicare & Medicaid Services (CMS)
+Datasource Host : Data.Medicare.gov
+DataSoue Link : https://data.medicare.gov/Physician-Compare/Physician-Compare-National-Downloadable-File/mj5m-pzi6/about
+
+Topics
+Category	        : Physician Compare
+Tags		        : Physician Compare, healthcare professional, eligible professional, physicians, doctors
+
+TABLE SHAPE
+Columns             : 41
+Rows                : 2,780,185
+
+ON DISK
+Uncompressed                    : 980 MB
+Compressed (gzip)               : 152 MB
+PyArrow Feather                 : 367 MB
+Qlikview   (Associative Engine) : 225 MB
+TriaClick  (Associative Engine) : 507 MB
+Clickhouse (Merge Tree Engine)  : 218 MB
+
+IN MEMORY
+Pandas     (no encoding) : 4608.000 MB
+Pandas      (categories) :  977.000 MB
+Qlikview   (Associative) :  341.000 MB
+TriaClick  (Associative) :    0.083 MB
+
+LOADING
+Pandas (no encoding)           : 28 sec
+Pandas (categories)            : 59 sec
+Qlikview  (Associative Engine) : 62 sec
+TriaClick (Associative Engine) : 63 sec
+
+===========================================================================
+MY COMMODITY HARDWARE (10 years old)
+===========================================================================
+OS Environment: Linux Ubuntu x64
+Processor: Intel(R) Core(TM) i3 CPU 540  @ 3.07GHz
+RAM 16 GB
+
+Non-volatile memory (NVM): 3D NAND FLASH
+Transcend 120GB 220S TS120GSSD220S Solid State Drive SATA III SSD 2.5''
+SanDisk SDSSDHP-128G-G25 Ultra Plus 128GB
+hdparm Timing cached reads:        4639.21 MB/sec
+hdparm Timing buffered disk reads:  195.32 MB/sec
+MonkeyTest 117.27 MB/sec Write
+MonkeyTest 242.91 MB/sec Read
+
+===========================================================================================================
+
+

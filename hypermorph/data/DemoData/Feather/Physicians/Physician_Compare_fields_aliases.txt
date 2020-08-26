@@ -1,0 +1,46 @@
+| ==== | ============ | ======================================= |========== | ========= |==========|
+| Dim2 |  Column Abbr |  Column Name                            | Unique    |  Count    | Missing  |
+| ==== | ============ | ======================================= |========== | ========= |==========|
+|   2  |  npi,        | 'NPI':                                  | 1053573   |  2780185  |        0 |
+|   3  |  pacID,      | 'PAC ID':                               | 1053574   |  2780185  |        0 |
+|   4  |  profID,     | 'Professional Enrollment ID':           | 1091544   |  2780185  |        0 |
+|   5  |  last,       | 'Last Name':                            |  247875   |  2780140  |       45 |
+|   6  |  first,      | 'First Name':                           |   71106   |  2780156  |       29 |
+|   7  |  middle,     | 'Middle Name':                          |   23703   |  2100589  |   679596 |
+|   8  |  suffix,     | 'Suffix':                               |      11   |    53417  |  2726768 |
+|   9  |  gender,     | 'Gender':                               |       2   |  2780185  |        0 |
+|  10  |  cred,       | 'Credential':                           |      21   |   912405  |  1867780 |
+|  11  |  school,     | 'Medical school name':                  |     401   |  2780172  |       13 |
+|  12  |  graduated,  | 'Graduation year':                      |      75   |  2773128  |     7057 |
+|  13  |  spec0,      | 'Primary specialty':                    |      82   |  2780185  |        0 |
+|  14  |  spec1,      | 'Secondary specialty 1':                |      67   |   397079  |  2383106 |
+|  15  |  spec2,      | 'Secondary specialty 2':                |      63   |    43299  |  2736886 |
+|  16  |  spec3,      | 'Secondary specialty 3':                |      54   |     4588  |  2775597 |
+|  17  |  spec4,      | 'Secondary specialty 4':                |      42   |      777  |  2779408 |
+|  18  |  specs,      | 'All secondary specialties':            |    1512   |   397079  |  2383106 |
+|  19  |  org,        | 'Organization legal name':              |   72791   |  2509769  |   270416 |
+|  20  |  groupID,    | 'Group Practice PAC ID':                |   73415   |  2509769  |   270416 |
+|  21  |  groupTotal, | 'Number of Group Practice members':     |     614   |  2509769  |   270416 |
+|  22  |  address1,   | 'Line 1 Street Address':                |  233466   |  2780185  |        0 |
+|  23  |  address2,   | 'Line 2 Street Address':                |   29702   |   711902  |  2068283 |
+|  24  |  addrMarker, | 'Marker of address line 2 suppression': |       1   |   115553  |  2664632 |
+|  25  |  city,       | 'City':                                 |   11079   |  2780185  |        0 |
+|  26  |  state,      | 'State':                                |      55   |  2780185  |        0 |
+|  27  |  zip,        | 'Zip Code':                             |  327195   |  2780185  |        0 |
+|  28  |  phone,      | 'Phone Number':                         |  222920   |  2397400  |   382785 |
+|  29  |  ccn1,       | 'Hospital affiliation CCN 1':           |    8402   |  1990864  |   789321 |
+|  30  |  lbn1,       | 'Hospital affiliation LBN 1':           |    4546   |  1990259  |   789926 |
+|  31  |  ccn2,       | 'Hospital affiliation CCN 2':           |    7624   |  1067597  |  1712588 |
+|  32  |  lbn2,       | 'Hospital affiliation LBN 2':           |    4504   |  1066876  |  1713309 |
+|  33  |  ccn3,       | 'Hospital affiliation CCN 3':           |    5963   |   591204  |  2188981 |
+|  34  |  lbn3,       | 'Hospital affiliation LBN 3':           |    4442   |   590771  |  2189414 |
+|  35  |  ccn4,       | 'Hospital affiliation CCN 4':           |    5001   |   346417  |  2433768 |
+|  36  |  lbn4,       | 'Hospital affiliation LBN 4':           |    4342   |   346144  |  2434041 |
+|  37  |  ccn5,       | 'Hospital affiliation CCN 5':           |    4375   |   217524  |  2562661 |
+|  38  |  lbn5,       | 'Hospital affiliation LBN 5':           |    4207   |   217267  |  2562918 |
+|  39  |  payCode,    | 'Professional accepts Medicare:         |       2   |  2780185  |        0 |
+|  40  |  pqrs,       | 'Reported Quality Measures':            |       1   |  1894589  |   885596 |
+|  41  |  ehr,        | 'Used electronic health records':       |       1   |   697057  |  2083128 |
+|  42  |  hearts      | 'Committed to heart health':            |       1   |    21748  |  2758437 |
+
+

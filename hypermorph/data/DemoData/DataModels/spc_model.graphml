@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+
+  <!-- property keys -->
+  <key id="key0" for="node" attr.name="alias" attr.type="string" />
+  <key id="key1" for="node" attr.name="cname" attr.type="string" />
+  <key id="key2" for="node" attr.name="counter" attr.type="int" />
+  <key id="key3" for="node" attr.name="ctype" attr.type="string" />
+  <key id="key4" for="node" attr.name="descr" attr.type="string" />
+  <key id="key5" for="node" attr.name="dim2" attr.type="int" />
+  <key id="key6" for="node" attr.name="dim3" attr.type="int" />
+  <key id="key7" for="node" attr.name="dim4" attr.type="int" />
+  <key id="key8" for="edge" attr.name="ealias" attr.type="short" />
+  <key id="key9" for="edge" attr.name="elabel" attr.type="short" />
+  <key id="key10" for="edge" attr.name="ename" attr.type="short" />
+  <key id="key11" for="edge" attr.name="etype" attr.type="short" />
+  <key id="key12" for="node" attr.name="extra" attr.type="python_object" />
+  <key id="key13" for="graph" attr.name="net_alias" attr.type="string" />
+  <key id="key14" for="graph" attr.name="net_descr" attr.type="string" />
+  <key id="key15" for="graph" attr.name="net_edges" attr.type="string" />
+  <key id="key16" for="graph" attr.name="net_format" attr.type="string" />
+  <key id="key17" for="graph" attr.name="net_name" attr.type="string" />
+  <key id="key18" for="graph" attr.name="net_path" attr.type="string" />
+  <key id="key19" for="graph" attr.name="net_tool" attr.type="string" />
+  <key id="key20" for="graph" attr.name="net_type" attr.type="string" />
+  <key id="key21" for="node" attr.name="ntype" attr.type="string" />
+
+  <graph id="G" edgedefault="directed" parse.nodeids="canonical" parse.edgeids="canonical" parse.order="nodesfirst">
+
+   <!-- graph properties -->
+   <data key="key13">sgraph</data>
+   <data key="key14">Schema graph for TRIADB metadata</data>
+   <data key="key15">directed</data>
+   <data key="key16">graphml</data>
+   <data key="key17">spc_model</data>
+   <data key="key18">/data/test/DataModels</data>
+   <data key="key19">graph_tool</data>
+   <data key="key20">Schema</data>
+
+   <!-- vertices -->
+    <node id="n0">
+      <data key="key0">MMS</data>
+      <data key="key1">*** TRIADB METADATA CATALOG SYSTEM ***</data>
+      <data key="key2">4</data>
+      <data key="key3">SYS</data>
+      <data key="key4">TRIADB Root System for all data catalog containers</data>
+      <data key="key5">0</data>
+      <data key="key6">0</data>
+      <data key="key7">0</data>
+      <data key="key12">gASVmQAAAAAAAAB9lCiMBXZ0eXBllIwCTkGUjARlbnVtlEsAjAdkZWZhdWx0lGgCjAdtaXNzaW5nlEsAjAZ1bmlxdWWUSwCMCWNvbGxhdGlvbpRoAowIanVuY3Rpb26USwCMBHBhdGiUaAKMAmRilGgCjARob3N0lGgCjARwb3J0lGgCjAR1c2VylGgCjAhwYXNzd29yZJRoAowDYXBplGgCdS4=</data>
+      <data key="key21">SYS</data>
+    </node>
+    <node id="n1">
+      <data key="key0">DRS</data>
+      <data key="key1">*** TRIADB DATA RESOURCES Subsystem ***</data>
+      <data key="key2">0</data>
+      <data key="key3">DS</data>
+      <data key="key4">Data Catalog container for data sets</data>
+      <data key="key5">0</data>
+      <data key="key6">0</data>
+      <data key="key7">1</data>
+      <data key="key12">gASVmQAAAAAAAAB9lCiMBXZ0eXBllIwCTkGUjARlbnVtlEsAjAdkZWZhdWx0lGgCjAdtaXNzaW5nlEsAjAZ1bmlxdWWUSwCMCWNvbGxhdGlvbpRoAowIanVuY3Rpb26USwCMBHBhdGiUaAKMAmRilGgCjARob3N0lGgCjARwb3J0lGgCjAR1c2VylGgCjAhwYXNzd29yZJRoAowDYXBplGgCdS4=</data>
+      <data key="key21">SYS</data>
+    </node>
+    <node id="n2">
+      <data key="key0">DMS</data>
+      <data key="key1">*** TRIADB DATA MODELS Subsystem ***</data>
+      <data key="key2">1</data>
+      <data key="key3">DM</data>
+      <data key="key4">Data Catalog container for data models</data>
+      <data key="key5">0</data>
+      <data key="key6">0</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVmQAAAAAAAAB9lCiMBXZ0eXBllIwCTkGUjARlbnVtlEsAjAdkZWZhdWx0lGgCjAdtaXNzaW5nlEsAjAZ1bmlxdWWUSwCMCWNvbGxhdGlvbpRoAowIanVuY3Rpb26USwCMBHBhdGiUaAKMAmRilGgCjARob3N0lGgCjARwb3J0lGgCjAR1c2VylGgCjAhwYXNzd29yZJRoAowDYXBplGgCdS4=</data>
+      <data key="key21">SYS</data>
+    </node>
+    <node id="n3">
+      <data key="key0">HLS</data>
+      <data key="key1">*** TRIADB HYPER LINKS Subsystem ***</data>
+      <data key="key2">0</data>
+      <data key="key3">HL</data>
+      <data key="key4">Data Catalog container for hyper-links</data>
+      <data key="key5">0</data>
+      <data key="key6">0</data>
+      <data key="key7">3</data>
+      <data key="key12">gASVmQAAAAAAAAB9lCiMBXZ0eXBllIwCTkGUjARlbnVtlEsAjAdkZWZhdWx0lGgCjAdtaXNzaW5nlEsAjAZ1bmlxdWWUSwCMCWNvbGxhdGlvbpRoAowIanVuY3Rpb26USwCMBHBhdGiUaAKMAmRilGgCjARob3N0lGgCjARwb3J0lGgCjAR1c2VylGgCjAhwYXNzd29yZJRoAowDYXBplGgCdS4=</data>
+      <data key="key21">SYS</data>
+    </node>
+    <node id="n4">
+      <data key="key0">SLS</data>
+      <data key="key1">*** TRIADB SCHEMA LINKS Subsystem ***</data>
+      <data key="key2">40</data>
+      <data key="key3">SL</data>
+      <data key="key4">Data Catalog container for schema-links</data>
+      <data key="key5">0</data>
+      <data key="key6">0</data>
+      <data key="key7">4</data>
+      <data key="key12">gASVmQAAAAAAAAB9lCiMBXZ0eXBllIwCTkGUjARlbnVtlEsAjAdkZWZhdWx0lGgCjAdtaXNzaW5nlEsAjAZ1bmlxdWWUSwCMCWNvbGxhdGlvbpRoAowIanVuY3Rpb26USwCMBHBhdGiUaAKMAmRilGgCjARob3N0lGgCjARwb3J0lGgCjAR1c2VylGgCjAhwYXNzd29yZJRoAowDYXBplGgCdS4=</data>
+      <data key="key21">SYS</data>
+    </node>
+    <node id="n5">
+      <data key="key0">SPC</data>
+      <data key="key1">Supplier Part Catalog</data>
+      <data key="key2">18</data>
+      <data key="key3">NA</data>
+      <data key="key4">Model with three entities that represent relations (tables) in a relational database</data>
+      <data key="key5">0</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVmQAAAAAAAAB9lCiMBXZ0eXBllIwCTkGUjARlbnVtlEsAjAdkZWZhdWx0lGgCjAdtaXNzaW5nlEsAjAZ1bmlxdWWUSwCMCWNvbGxhdGlvbpRoAowIanVuY3Rpb26USwCMBHBhdGiUaAKMAmRilGgCjARob3N0lGgCjARwb3J0lGgCjAR1c2VylGgCjAhwYXNzd29yZJRoAowDYXBplGgCdS4=</data>
+      <data key="key21">DM</data>
+    </node>
+    <node id="n6">
+      <data key="key0">SUP</data>
+      <data key="key1">Supplier</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">The Supplier Entity of the data model</data>
+      <data key="key5">1</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVmQAAAAAAAAB9lCiMBXZ0eXBllIwCTkGUjARlbnVtlEsAjAdkZWZhdWx0lGgCjAdtaXNzaW5nlEsAjAZ1bmlxdWWUSwCMCWNvbGxhdGlvbpRoAowIanVuY3Rpb26USwCMBHBhdGiUaAKMAmRilGgCjARob3N0lGgCjARwb3J0lGgCjAR1c2VylGgCjAhwYXNzd29yZJRoAowDYXBplGgCdS4=</data>
+      <data key="key21">ENT</data>
+    </node>
+    <node id="n7">
+      <data key="key0">PRT</data>
+      <data key="key1">Part</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">The Part Entity of the data model</data>
+      <data key="key5">2</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVmQAAAAAAAAB9lCiMBXZ0eXBllIwCTkGUjARlbnVtlEsAjAdkZWZhdWx0lGgCjAdtaXNzaW5nlEsAjAZ1bmlxdWWUSwCMCWNvbGxhdGlvbpRoAowIanVuY3Rpb26USwCMBHBhdGiUaAKMAmRilGgCjARob3N0lGgCjARwb3J0lGgCjAR1c2VylGgCjAhwYXNzd29yZJRoAowDYXBplGgCdS4=</data>
+      <data key="key21">ENT</data>
+    </node>
+    <node id="n8">
+      <data key="key0">CAT</data>
+      <data key="key1">Catalog</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">The Catalog Entity of the data model</data>
+      <data key="key5">3</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVmQAAAAAAAAB9lCiMBXZ0eXBllIwCTkGUjARlbnVtlEsAjAdkZWZhdWx0lGgCjAdtaXNzaW5nlEsAjAZ1bmlxdWWUSwCMCWNvbGxhdGlvbpRoAowIanVuY3Rpb26USwCMBHBhdGiUaAKMAmRilGgCjARob3N0lGgCjARwb3J0lGgCjAR1c2VylGgCjAhwYXNzd29yZJRoAowDYXBplGgCdS4=</data>
+      <data key="key21">ENT</data>
+    </node>
+    <node id="n9">
+      <data key="key0">s_name</data>
+      <data key="key1">sname</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">supplier name</data>
+      <data key="key5">4</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVngAAAAAAAAB9lCiMBXZ0eXBllIwEdXRmOJSMB21pc3NpbmeUSwCMBGVudW2USwCMB2RlZmF1bHSUjAJOQZSMBnVuaXF1ZZRLAIwJY29sbGF0aW9ulGgGjAhqdW5jdGlvbpRLAIwEcGF0aJRoBowCZGKUaAaMBGhvc3SUaAaMBHBvcnSUaAaMBHVzZXKUaAaMCHBhc3N3b3JklGgGjANhcGmUaAZ1Lg==</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n10">
+      <data key="key0">s_address</data>
+      <data key="key1">saddress</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">supplier address</data>
+      <data key="key5">5</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVngAAAAAAAAB9lCiMBXZ0eXBllIwEdXRmOJSMB21pc3NpbmeUSwGMBGVudW2USwCMB2RlZmF1bHSUjAJOQZSMBnVuaXF1ZZRLAIwJY29sbGF0aW9ulGgGjAhqdW5jdGlvbpRLAIwEcGF0aJRoBowCZGKUaAaMBGhvc3SUaAaMBHBvcnSUaAaMBHVzZXKUaAaMCHBhc3N3b3JklGgGjANhcGmUaAZ1Lg==</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n11">
+      <data key="key0">s_city</data>
+      <data key="key1">scity</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">supplier city</data>
+      <data key="key5">6</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVngAAAAAAAAB9lCiMBXZ0eXBllIwEdXRmOJSMBGVudW2USwGMB21pc3NpbmeUSwGMB2RlZmF1bHSUjAJOQZSMBnVuaXF1ZZRLAIwJY29sbGF0aW9ulGgGjAhqdW5jdGlvbpRLAIwEcGF0aJRoBowCZGKUaAaMBGhvc3SUaAaMBHBvcnSUaAaMBHVzZXKUaAaMCHBhc3N3b3JklGgGjANhcGmUaAZ1Lg==</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n12">
+      <data key="key0">s_country</data>
+      <data key="key1">scountry</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">supplier country</data>
+      <data key="key5">7</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVngAAAAAAAAB9lCiMBXZ0eXBllIwEdXRmOJSMBGVudW2USwGMB21pc3NpbmeUSwGMB2RlZmF1bHSUjAJOQZSMBnVuaXF1ZZRLAIwJY29sbGF0aW9ulGgGjAhqdW5jdGlvbpRLAIwEcGF0aJRoBowCZGKUaAaMBGhvc3SUaAaMBHBvcnSUaAaMBHVzZXKUaAaMCHBhc3N3b3JklGgGjANhcGmUaAZ1Lg==</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n13">
+      <data key="key0">s_status</data>
+      <data key="key1">sstatus</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">supplier status</data>
+      <data key="key5">8</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVnwAAAAAAAAB9lCiMBXZ0eXBllIwFYm9vbF+UjARlbnVtlEsBjAdtaXNzaW5nlEsBjAdkZWZhdWx0lIwCTkGUjAZ1bmlxdWWUSwCMCWNvbGxhdGlvbpRoBowIanVuY3Rpb26USwCMBHBhdGiUaAaMAmRilGgGjARob3N0lGgGjARwb3J0lGgGjAR1c2VylGgGjAhwYXNzd29yZJRoBowDYXBplGgGdS4=</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n14">
+      <data key="key0">p_name</data>
+      <data key="key1">pname</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">part name</data>
+      <data key="key5">9</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVngAAAAAAAAB9lCiMBXZ0eXBllIwEdXRmOJSMB21pc3NpbmeUSwCMBGVudW2USwCMB2RlZmF1bHSUjAJOQZSMBnVuaXF1ZZRLAIwJY29sbGF0aW9ulGgGjAhqdW5jdGlvbpRLAIwEcGF0aJRoBowCZGKUaAaMBGhvc3SUaAaMBHBvcnSUaAaMBHVzZXKUaAaMCHBhc3N3b3JklGgGjANhcGmUaAZ1Lg==</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n15">
+      <data key="key0">p_color</data>
+      <data key="key1">pcolor</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">part color</data>
+      <data key="key5">10</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVngAAAAAAAAB9lCiMBXZ0eXBllIwEdXRmOJSMBGVudW2USwGMB21pc3NpbmeUSwGMB2RlZmF1bHSUjAJOQZSMBnVuaXF1ZZRLAIwJY29sbGF0aW9ulGgGjAhqdW5jdGlvbpRLAIwEcGF0aJRoBowCZGKUaAaMBGhvc3SUaAaMBHBvcnSUaAaMBHVzZXKUaAaMCHBhc3N3b3JklGgGjANhcGmUaAZ1Lg==</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n16">
+      <data key="key0">p_weight</data>
+      <data key="key1">pweight</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">part weight</data>
+      <data key="key5">11</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVoQAAAAAAAAB9lCiMBXZ0eXBllIwHZmxvYXQzMpSMB21pc3NpbmeUSwGMBGVudW2USwCMB2RlZmF1bHSUjAJOQZSMBnVuaXF1ZZRLAIwJY29sbGF0aW9ulGgGjAhqdW5jdGlvbpRLAIwEcGF0aJRoBowCZGKUaAaMBGhvc3SUaAaMBHBvcnSUaAaMBHVzZXKUaAaMCHBhc3N3b3JklGgGjANhcGmUaAZ1Lg==</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n17">
+      <data key="key0">p_unit</data>
+      <data key="key1">punit</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">part unit</data>
+      <data key="key5">12</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVngAAAAAAAAB9lCiMBXZ0eXBllIwEdXRmOJSMBGVudW2USwGMB21pc3NpbmeUSwGMB2RlZmF1bHSUjAJOQZSMBnVuaXF1ZZRLAIwJY29sbGF0aW9ulGgGjAhqdW5jdGlvbpRLAIwEcGF0aJRoBowCZGKUaAaMBGhvc3SUaAaMBHBvcnSUaAaMBHVzZXKUaAaMCHBhc3N3b3JklGgGjANhcGmUaAZ1Lg==</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n18">
+      <data key="key0">c_price</data>
+      <data key="key1">cprice</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">catalog price</data>
+      <data key="key5">13</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVoQAAAAAAAAB9lCiMBXZ0eXBllIwHZmxvYXQzMpSMB21pc3NpbmeUSwCMBGVudW2USwCMB2RlZmF1bHSUjAJOQZSMBnVuaXF1ZZRLAIwJY29sbGF0aW9ulGgGjAhqdW5jdGlvbpRLAIwEcGF0aJRoBowCZGKUaAaMBGhvc3SUaAaMBHBvcnSUaAaMBHVzZXKUaAaMCHBhc3N3b3JklGgGjANhcGmUaAZ1Lg==</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n19">
+      <data key="key0">c_quantity</data>
+      <data key="key1">cquantiy</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">catalog quantity</data>
+      <data key="key5">14</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVoAAAAAAAAAB9lCiMBXZ0eXBllIwGdWludDE2lIwHbWlzc2luZ5RLAYwEZW51bZRLAIwHZGVmYXVsdJSMAk5BlIwGdW5pcXVllEsAjAljb2xsYXRpb26UaAaMCGp1bmN0aW9ulEsAjARwYXRolGgGjAJkYpRoBowEaG9zdJRoBowEcG9ydJRoBowEdXNlcpRoBowIcGFzc3dvcmSUaAaMA2FwaZRoBnUu</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n20">
+      <data key="key0">c_date</data>
+      <data key="key1">cdate</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">catalog date</data>
+      <data key="key5">15</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVoAAAAAAAAAB9lCiMBXZ0eXBllIwGZGF0ZTMylIwHbWlzc2luZ5RLAYwEZW51bZRLAIwHZGVmYXVsdJSMAk5BlIwGdW5pcXVllEsAjAljb2xsYXRpb26UaAaMCGp1bmN0aW9ulEsAjARwYXRolGgGjAJkYpRoBowEaG9zdJRoBowEcG9ydJRoBowEdXNlcpRoBowIcGFzc3dvcmSUaAaMA2FwaZRoBnUu</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n21">
+      <data key="key0">c_check</data>
+      <data key="key1">ccheck</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">catalog check</data>
+      <data key="key5">16</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVnwAAAAAAAAB9lCiMBXZ0eXBllIwFYm9vbF+UjARlbnVtlEsBjAdtaXNzaW5nlEsAjAdkZWZhdWx0lIwCTkGUjAZ1bmlxdWWUSwCMCWNvbGxhdGlvbpRoBowIanVuY3Rpb26USwCMBHBhdGiUaAaMAmRilGgGjARob3N0lGgGjARwb3J0lGgGjAR1c2VylGgGjAhwYXNzd29yZJRoBowDYXBplGgGdS4=</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n22">
+      <data key="key0">s_ID</data>
+      <data key="key1">sid</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">supplier id</data>
+      <data key="key5">17</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVoAAAAAAAAAB9lCiMBXZ0eXBllIwGdWludDE2lIwHbWlzc2luZ5RLAIwGdW5pcXVllEsBjAhqdW5jdGlvbpRLAYwEZW51bZRLAIwHZGVmYXVsdJSMAk5BlIwJY29sbGF0aW9ulGgIjARwYXRolGgIjAJkYpRoCIwEaG9zdJRoCIwEcG9ydJRoCIwEdXNlcpRoCIwIcGFzc3dvcmSUaAiMA2FwaZRoCHUu</data>
+      <data key="key21">ATTR</data>
+    </node>
+    <node id="n23">
+      <data key="key0">p_ID</data>
+      <data key="key1">pid</data>
+      <data key="key2">0</data>
+      <data key="key3">NA</data>
+      <data key="key4">part id</data>
+      <data key="key5">18</data>
+      <data key="key6">100</data>
+      <data key="key7">2</data>
+      <data key="key12">gASVoAAAAAAAAAB9lCiMBXZ0eXBllIwGdWludDE2lIwHbWlzc2luZ5RLAIwGdW5pcXVllEsBjAhqdW5jdGlvbpRLAYwEZW51bZRLAIwHZGVmYXVsdJSMAk5BlIwJY29sbGF0aW9ulGgIjARwYXRolGgIjAJkYpRoCIwEaG9zdJRoCIwEcG9ydJRoCIwEdXNlcpRoCIwIcGFzc3dvcmSUaAiMA2FwaZRoCHUu</data>
+      <data key="key21">ATTR</data>
+    </node>
+
+   <!-- edges -->
+    <edge id="e0" source="n0" target="n1">
+      <data key="key8">1</data>
+      <data key="key9">1</data>
+      <data key="key10">1</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e1" source="n0" target="n2">
+      <data key="key8">1</data>
+      <data key="key9">1</data>
+      <data key="key10">1</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e2" source="n0" target="n3">
+      <data key="key8">1</data>
+      <data key="key9">1</data>
+      <data key="key10">1</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e3" source="n0" target="n4">
+      <data key="key8">1</data>
+      <data key="key9">1</data>
+      <data key="key10">1</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e4" source="n2" target="n5">
+      <data key="key8">3</data>
+      <data key="key9">3</data>
+      <data key="key10">3</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e5" source="n5" target="n6">
+      <data key="key8">7</data>
+      <data key="key9">7</data>
+      <data key="key10">7</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e6" source="n5" target="n7">
+      <data key="key8">7</data>
+      <data key="key9">7</data>
+      <data key="key10">7</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e7" source="n5" target="n8">
+      <data key="key8">7</data>
+      <data key="key9">7</data>
+      <data key="key10">7</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e8" source="n5" target="n9">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e9" source="n5" target="n10">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e10" source="n5" target="n11">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e11" source="n5" target="n12">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e12" source="n5" target="n13">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e13" source="n5" target="n14">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e14" source="n5" target="n15">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e15" source="n5" target="n16">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e16" source="n5" target="n17">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e17" source="n5" target="n18">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e18" source="n5" target="n19">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e19" source="n5" target="n20">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e20" source="n5" target="n21">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e21" source="n5" target="n22">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e22" source="n5" target="n23">
+      <data key="key8">8</data>
+      <data key="key9">8</data>
+      <data key="key10">8</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e23" source="n6" target="n9">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e24" source="n6" target="n10">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e25" source="n6" target="n11">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e26" source="n6" target="n12">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e27" source="n6" target="n13">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e28" source="n6" target="n22">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e29" source="n7" target="n14">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e30" source="n7" target="n15">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e31" source="n7" target="n16">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e32" source="n7" target="n17">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e33" source="n7" target="n23">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e34" source="n8" target="n18">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e35" source="n8" target="n19">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e36" source="n8" target="n20">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e37" source="n8" target="n21">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e38" source="n8" target="n22">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+    <edge id="e39" source="n8" target="n23">
+      <data key="key8">9</data>
+      <data key="key9">9</data>
+      <data key="key10">9</data>
+      <data key="key11">1</data>
+    </edge>
+
+  </graph>
+</graphml>

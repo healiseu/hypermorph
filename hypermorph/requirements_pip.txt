@@ -1,0 +1,7 @@
+sqlalchemy-clickhouse    ~= 0.1.5
+mysql-connector-python   ~= 8.0.20
+clickhouse-driver        ~= 0.1.4
+PyMySQL                  ~= 0.9.3
+python-igraph            ~= 0.8.2
+sqltap                   ~= 0.3.11
+pyarrow                  ~= 1.0.0

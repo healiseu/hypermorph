@@ -1,0 +1,129 @@
+NPI,
+Unique professional ID assigned by NPPES
+
+PAC ID,
+Unique individual professional ID assigned by PECOS
+
+Professional Enrollment ID
+Unique ID for the individual professional enrollment that is the source for the data in the observation
+
+Last Name,
+Individual professional last name,
+
+First Name,
+Individual professional first name,
+
+Middle Name,
+Individual professional middle name
+
+Suffix,
+Individual professional suffix
+
+Gender,
+Individual professional gender
+
+Credential,
+"Medical credential such as MD, DO, DPM, etc."
+
+Medical school name,
+Individual professional's medical school
+
+Graduation year,
+Individual professional's medical school graduation year,
+
+Primary specialty,
+Primary medical specialty reported by the individual professional in the selected enrollment
+
+Secondary specialty 1,
+First secondary medical specialty reported by the individual professional in the selected enrollment
+
+Secondary specialty 2,
+Second secondary medical specialty reported by the individual professional in the selected enrollment
+
+Secondary specialty 3,
+Third secondary medical specialty reported by the individual professional in the selected enrollment,
+
+Secondary specialty 4,
+Fourth secondary medical specialty reported by the individual professional in the selected enrollment
+
+All secondary specialties,
+"All four secondary specialties reported by the individual professional in the selected enrollment, separated by commas"
+
+Organization legal name,
+Legal name of the Group Practice that the individual professional works with- will be blank if the address is not linked to a Group Practice
+
+Group Practice PAC ID
+Unique Group Practice ID assigned by PECOS to the Group Practice that the individual professional works with- will be blank if the address is not linked to a Group Practice
+
+Number of Group Practice members,
+Total number of individual professionals affiliated with the Group Practice based on Group Practice PAC ID
+
+Line 1 Street Address,
+Group Practice or individual's line 1 address,
+
+Line 2 Street Address,
+Group Practice or individual's line 2 address,
+
+Marker of address line 2 suppression,
+Marker that address as reported may be incomplete,
+
+City,
+Group Practice or individual's city,
+
+State,
+Group Practice or individual's state,
+
+Zip Code,
+Group Practice or individual's zip code (9 digits when available),
+
+Phone Number,
+Phone number is listed only when there is a single phone number available for the practice location address,
+
+Hospital affiliation CCN 1,
+Medicare CCN of hospital where individual professional provides service,
+
+Hospital affiliation LBN 1,
+Legal business name of hospital where individual professional provides service,
+
+Hospital affiliation CCN 2,
+Medicare CCN of hospital where individual professional provides service,
+
+Hospital affiliation LBN 2,
+Legal business name of hospital where individual professional provides service,
+
+Hospital affiliation CCN 3,
+Medicare CCN of hospital where individual professional provides service,
+
+Hospital affiliation LBN 3,
+Legal business name of hospital where individual provider renders service,
+
+Hospital affiliation CCN 4,
+Medicare CCN of hospital where individual provider renders service,
+
+Hospital affiliation LBN 4,
+Legal business name of hospital where individual professional provides service,
+
+Hospital affiliation CCN 5,
+Medicare CCN of hospital where individual professional provides service,
+
+Hospital affiliation LBN 5,
+Legal business name of hospital where individual professional provides service,
+
+Professional accepts Medicare Assignment,
+Y = Professional accepts Medicare approved amount as payment in full.
+M = Professional may accept Medicare Assignment.,
+
+Reported Quality Measures,
+Quality measures can show how well a health care professional provides care to people with Medicare. 
+The Physician Quality Reporting System (PQRS) is a Medicare program 
+encouraging health care professionals and group practices to report information on their quality of care.,
+
+Used electronic health records,
+Electronic health records are important because they may improve a health care professional’s 
+ability to make well-informed treatment decisions. 
+The Electronic Health Records (EHR) Incentive Program encourages health care professionals 
+to use certified EHR technology in ways that may improve health care.,
+
+Committed to heart health through the Million Hearts® initiative.,
+Million Hearts® is a national initiative that encourages health care professionals to report and perform well 
+on activities related to heart health in an effort to prevent heart attacks and strokes.,

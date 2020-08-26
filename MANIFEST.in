@@ -1,0 +1,7 @@
+recursive-include hypermorph/demo *.py
+recursive-include hypermorph/test_modules *.py
+recursive-include hypermorph/test_cases *.py
+recursive-include hypermorph/data *.xml *.json *.tsv *.sql *.graphml *.fr *.txt *.sqlite
+recursive-include hypermorph *.md *.txt
+
+
