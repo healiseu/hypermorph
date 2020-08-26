@@ -14,6 +14,6 @@ Wish you a happy path testing and a pleasant working experience
 Founder of HEALIS.EU
 
 
-[1]: http://healis.eu/en/__hypermorph/
+[1]: http://healis.eu/en/hmorph/
 [9]: https://healis.eu/en/about/#athanassios
 
